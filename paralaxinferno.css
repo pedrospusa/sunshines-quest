@@ -1,0 +1,158 @@
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+
+#canvas {
+    z-index: 1;
+    position: absolute;
+}
+
+#Scene{
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    border: 0;
+}
+
+.parallax-layer{
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    border: 0;
+
+}
+
+#bgi1{
+    background: url('sources/bgi8.png');
+    background-repeat-y: no-repeat;
+    width: 4368px;
+    z-index: -8;
+}
+
+
+#bgi3{
+    background: url('sources/bgi6.png');
+    width: 4368px;
+    background-repeat-y: no-repeat;
+    z-index: -6;
+}
+#bgi4{
+    background: url('sources/bgi5.png');
+    width: 4368px;
+    background-repeat-y: no-repeat;
+    z-index: -5;
+}
+#bgi5{
+    background: url('sources/bgi4.png');
+    width: 4368px;
+    background-repeat-y: no-repeat;
+    z-index: -4;
+}
+#bgi6{
+    background: url('sources/bgi3.png');
+    width: 4368px;
+    background-repeat-y: no-repeat;
+    z-index: -3;
+}
+#bgi7{
+    background: url('sources/bgi2.png');
+    width: 4368px;
+    background-repeat-y: no-repeat;
+    z-index: -2;
+}
+#bgi8{
+    background: url('sources/bgi1.png');
+    width: 4368px;
+    background-repeat-y: no-repeat;
+    z-index: -1;
+}
+
+
+@font-face {
+    font-family: 'planes_valmorebold';
+    src: url('sources/webfontkit-20220217-203425/planes_valmore-webfont.woff2') format('woff2'),
+    url('sources/webfontkit-20220217-203425/planes_valmore-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#timer {
+
+    font-size: 50px;
+
+    font-family: 'planes_valmorebold';
+    position: absolute;
+    z-index: 9;
+    top: 10px;
+    right: 20px;
+
+
+}
+
+.vida {
+
+
+    font-size: 40px;
+    font-family: 'planes_valmorebold';
+    position: absolute;
+    z-index: 10;
+
+    left: 20px;
+    top: 10px;
+}
+
+#profile{
+
+    width: 60px;
+    height: 60px;
+}
+
+#numeros{
+
+}
+
+.vida2 {
+    font-size: 40px;
+    font-family: 'planes_valmorebold';
+    position: absolute;
+    z-index: 10;
+
+    left: 90px;
+    top: 20px;
+}
+
+.pedras {
+
+
+    font-size: 40px;
+    font-family: 'planes_valmorebold';
+    position: absolute;
+    z-index: 10;
+
+    left: 20px;
+    top: 90px;
+}
+
+#profileP{
+
+    width: 60px;
+    height: 60px;
+}
+
+
+.pedras2 {
+    font-size: 40px;
+    font-family: 'planes_valmorebold';
+    position: absolute;
+    z-index: 10;
+
+    left: 90px;
+    top: 100px;
+}

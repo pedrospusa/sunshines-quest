@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sunshine's Quest</title>
+
+    <link rel="stylesheet" href="stylewinLose.css">
+</head>
+<body>
+
+<div id="carrega" >
+
+
+
+    <img id="menuImagem" src="sources/win.png">
+
+
+</div>
+
+<video autoplay muted loop id="myVideoWin">
+    <source src="sources/videoBC.mov" type="video/mp4">
+</video>
+
+
+<div id="foguetes">
+    <img id="foguete1" src="sources/explosao.gif" alt="foguete"/>
+    <img id="foguete2" src="sources/explosao.gif" alt="foguete"/>
+    <img id="foguete3" src="sources/explosao.gif" alt="foguete"/>
+    <img id="foguete4" src="sources/explosao.gif" alt="foguete"/>
+    <img id="foguete5" src="sources/explosao.gif" alt="foguete"/>
+    <input type="button" id="recomecar" value="jogar novamente"/>
+</div>
+
+<span id="start-btn" class='start-btn'>Menu</span>
+
+</body>
+<script >
+
+    document.getElementById("start-btn").onclick = function () {
+
+        window.location.href="indexMenu.html"
+    };
+
+    document.getElementById("foguete" + n).style.display = 'block';
+
+    posRx= parseInt(Math.random()*600);
+    posRy= parseInt(Math.random()*100);
+
+    document.getElementById("foguete" + n ).style.left= posRx + "px";
+    document.getElementById("foguete" + n ).style.top= posRy + "px";
+
+
+
+
+
+
+
+</script>
+</html>
